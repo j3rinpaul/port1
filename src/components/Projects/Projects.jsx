@@ -41,6 +41,18 @@ function Projects() {
             />
           </Col>
 
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reImg}
+              isBlog={false}
+              title="OPenCV Project for LEAP"
+              description="  "
+              link="https://github.com/j3rinpaul/reImg"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={giffy}
